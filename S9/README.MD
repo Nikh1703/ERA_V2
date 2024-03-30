@@ -4,16 +4,16 @@ This Jupyter notebook presents the comprehensive development, training, and eval
 
 
 ## Model Architecture
-1-Convolutional Layers: Key for feature extraction, these layers apply various filters to the input images to create feature maps that represent different aspects of the images.
-2-Activation Functions: ReLU (Rectified Linear Unit) is used after each convolutional layer to introduce non-linearities into the model, making it capable of learning complex patterns.
-3-Batch Normalization: Implemented following each convolutional layer to stabilize and accelerate the training process by normalizing the activations.
-4-Dropout Layers: Included to prevent overfitting by randomly dropping units (along with their connections) during the training phase.
-5-Pooling Layers: Utilized to reduce the spatial dimensions of the feature maps, thereby decreasing the computational load and minimizing the risk of overfitting.
-6-Global Average Pooling (GAP): Applied before the final layer to reduce each feature map to a single value, effectively summarizing the essential information.
-7-Fully Connected Layer: The network concludes with a fully connected layer that maps the reduced features to the output classes.
-8-Depthwise Separable Convolutions: Learned the importance of using depthwise separable convolutions for reducing the model's parameter count without sacrificing the ability to extract meaningful features from images.
-9-Channel and Layer Optimization: Gained insights into balancing the number of channels and layers to manage model complexity and ensure efficiency.
-10-Adaptive Pooling: Understood the utility of adaptive pooling in ensuring consistent output sizes, which is crucial for aligning the model's output with classification layers.
+-Convolutional Layers: Key for feature extraction, these layers apply various filters to the input images to create feature maps that represent different aspects of the images.
+-Activation Functions: ReLU (Rectified Linear Unit) is used after each convolutional layer to introduce non-linearities into the model, making it capable of learning complex patterns.
+-Batch Normalization: Implemented following each convolutional layer to stabilize and accelerate the training process by normalizing the activations.
+-Dropout Layers: Included to prevent overfitting by randomly dropping units (along with their connections) during the training phase.
+-Pooling Layers: Utilized to reduce the spatial dimensions of the feature maps, thereby decreasing the computational load and minimizing the risk of overfitting.
+-Global Average Pooling (GAP): Applied before the final layer to reduce each feature map to a single value, effectively summarizing the essential information.
+-Fully Connected Layer: The network concludes with a fully connected layer that maps the reduced features to the output classes.
+-Depthwise Separable Convolutions: Learned the importance of using depthwise separable convolutions for reducing the model's parameter count without sacrificing the ability to extract meaningful features from images.
+-Channel and Layer Optimization: Gained insights into balancing the number of channels and layers to manage model complexity and ensure efficiency.
+-Adaptive Pooling: Understood the utility of adaptive pooling in ensuring consistent output sizes, which is crucial for aligning the model's output with classification layers.
 
 
 ## Training Procedure
