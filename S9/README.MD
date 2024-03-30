@@ -32,15 +32,15 @@ Training Strategies
 Explored the Albumentations library for advanced image augmentation techniques, appreciating its flexibility and effectiveness in enhancing model generalization.
 
 
-##Training Strategies
+## Training Strategies
 Learning Rate Optimization: Acknowledged the importance of learning rate scheduling and adjustments to improve model convergence and performance.
 Impact of Augmentation: Investigated how different data augmentation strategies can significantly affect model accuracy and robustness.
 
 
 
-##Accuracy: 
+## Accuracy: 
 Measures the proportion of correctly classified images.
 
-##Challenges Encountered
+## Challenges Encountered
 Balancing the model's depth and width within the parameter constraints posed a significant challenge, requiring careful architectural planning.
 Ensuring the receptive field exceeded 44 while maintaining or improving model accuracy involved strategic adjustments to convolution and pooling layers.
